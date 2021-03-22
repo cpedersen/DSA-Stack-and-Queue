@@ -31,7 +31,7 @@ class Stack {
   }
 }
 
-class StackQueue {
+class QueueStack {
   constructor() {
     this.stack1 = new Stack();
     this.stack2 = new Stack();
@@ -54,4 +54,4 @@ class StackQueue {
   }
 }
 
-module.exports = StackQueue;
+module.exports = QueueStack;

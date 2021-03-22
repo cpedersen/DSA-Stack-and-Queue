@@ -1,7 +1,7 @@
-const StackQueue = require("./stackQueue");
+const QueueStack = require("./queueStack");
 
 function main() {
-  const queue = new StackQueue();
+  const queue = new QueueStack();
 
   queue.enqueue(1);
   queue.enqueue(2);
